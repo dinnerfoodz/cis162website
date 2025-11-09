@@ -1,59 +1,67 @@
 @charset "utf-8";
-body {
-  background-color:lightslategray;
-}
-header {
-    color: black;
-  font-family:Arial, Helvetica, sans-serif;
-}
-h1 {
-  color: black;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 180%;
-  text-align: center;
-  background-color:rgba(135, 195, 213, 0.399);
-}
-p, h2, h3 {
-     color: black;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 100%;
-  margin-top: 80px;
-}
-nav > ul {
-   color: black;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 150%;
-   padding: 0%;
-   margin: 0;
-   list-style-type: none;
-   display: flex;
-   justify-content: space-evenly;
-   background-color:rgba(135, 195, 213, 0.227);
-}
-ol {
-    color: black;
-  font-family:Arial, Helvetica, sans-serif;
-  background-color:rgba(255, 255, 255, 0.107);
-}
-footer {
-    color: black;
-  font-family:Arial, Helvetica, sans-serif;
-  margin-top: 50px;
-}
-h4 {
-    color: black;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 100%;
-  margin: 25px 50px 50px 100px;
-  text-align: justify;
-  background-color:rgba(154, 189, 200, 0.227);
-}
-ul {
-    color: black;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: 100%;
-  margin: 25px 50px 50px 100px;
-  text-align:justify;
-  list-style-type: none;
 
+/* body */
+body {
+  background-color: lightslategray;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  margin: 0;
+}
+
+/* header */
+.site-header {
+  background-color: rgba(135, 195, 213, 0.3);
+  padding: 15px 0;
+  text-align: center;
+}
+
+.site-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  margin: 0;
+}
+
+/* nav */
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: rgba(135, 195, 213, 0.25);
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+/* about */
+.content section, .goals, .skills {
+  background-color: rgba(255, 255, 255, 0.22);
+  padding: 20px;
+  margin: 30px auto;
+  width: 85%;
+  border-radius: 6px;
+}
+
+/* headings */
+h3, h4 {
+  margin-top: 0;
+}
+
+/* lists */
+ul, ol {
+  margin-left: 25px;
+}
+
+/* footer */
+footer {
+  background-color: rgba(255, 255, 255, 0.22);
+  padding: 15px;
+  text-align: center;
+  margin-top: 40px;
 }
